@@ -11,7 +11,7 @@ nunjucks.configure('views', {
 
 const nexmo = new Nexmo({
     apiKey: 'a73991b2',
-    apiSecret: 'IHf9J0QPddShg3BVSHUBHAM'
+    apiSecret: 'IHf9J0QPddShg3BV'
 });
 
 app.get('/', (req, res) => {
